@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Data</title>
+  </head>
+  <body>
+    <form>
+      <fieldset style="background-color: #9696c0">
+        <legend style="background-color: rgb(36 67 125); color: white">
+          Personal Data
+        </legend>
+        <br />
+        <fieldset style="background-color: #6e7cb4">
+          <legend style="background-color: rgb(36 67 125); color: white">
+            <br />
+            your name <br /><br />
+          </legend>
+          <br />
+          <br />
+          <table>
+            <tr>
+              <td>
+                <label style="color: #0003ff" for="fname">first name</label>
+              </td>
+              <td>:</td>
+              <td>
+                <input
+                  style="color: #0003ff; background: #c4c6d8fc"
+                  type="name"
+                  name="fname"
+                  required
+                  placeholder="enter your fName"
+                  id="fname"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label style="color: #0003ff" for="lname">last name</label>
+              </td>
+              <td>:</td>
+              <td>
+                <input
+                  style="color: #0003ff; background: #c4c6d8fc"
+                  type="name"
+                  name="lname"
+                  required
+                  placeholder="enter your lName"
+                  id="lname"
+                />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br /><br />
+        <table>
+          <tr>
+            <td>
+              <label style="color: #0003ff" for="phone">your phone</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input
+                style="color: #0003ff; background: #c4c6d8fc"
+                type="tel"
+                name="phone"
+                required
+                placeholder="enter your phone number"
+                id="phone"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label style="color: #0003ff" for="email">Email</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input
+                style="color: #0003ff; background: #c4c6d8fc"
+                type="email"
+                name="email"
+                required
+                placeholder="enter your email"
+                id="email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label style="color: #0003ff" for="password">password</label>
+            </td>
+            <td>:</td>
+            <td>
+              <input
+                style="color: #0003ff; background: #c4c6d8fc"
+                type="password"
+                name="password"
+                required
+                placeholder="enter your password"
+                id="password"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label style="color: #0003ff" for="re-password"
+                >re-password</label
+              >
+            </td>
+            <td>:</td>
+            <td>
+              <input
+                style="color: #0003ff; background: #c4c6d8fc"
+                type="password"
+                name="re-password"
+                required
+                placeholder="enter your re-password"
+                id="re-password"
+              />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <br />
+        <input type="radio" checked value="male" id="male" name="gender" />
+        <label for="male" style="color: #0003ff">male</label>
+        <br />
+        <input type="radio" value="female" id="female" name="gender" />
+        <label style="color: #0003ff" for="female">female</label>
+        <br /><br />
+        <input
+          type="checkbox"
+          value="student"
+          id="student"
+          name="Qualifications"
+        />
+        <label style="color: #0003ff" for="student">student</label>
+        <br />
+        <input
+          type="checkbox"
+          value="graduate"
+          id="graduate"
+          name="Qualifications"
+        />
+        <label style="color: #0003ff" for="graduate">graduate</label>
+        <br />
+        <input
+          type="checkbox"
+          value="Factor"
+          id="Factor"
+          name="Qualifications"
+        />
+        <label style="color: #0003ff" for="Factor">Factor</label>
+        <br /><br /><br />
+        <select name="country" style="color: #0003ff">
+          <option value="country" disabled hidden selected>country</option>
+          <optgroup label="Africa">
+            <option value="eg">egypt</option>
+            <option value="sa">Saudi Arabia</option>
+            <option value="qa">Qatar</option>
+            <option value="su">Sudan</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option value="fr">France</option>
+            <option value="en">England</option>
+            <option value="sp">Spain</option>
+            <option value="ge">Germany</option>
+          </optgroup>
+          <optgroup label="Asia" disabled>
+            <option value="ch">China</option>
+            <option value="in">India</option>
+            <option value="pa">Pakistan</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <button type="submit" style="background-color: #0003ff">
+          <img src="images/btn submit.jpg" alt="button submit" width="80" />
+        </button>
+        <br /><br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
